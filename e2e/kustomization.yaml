@@ -7,6 +7,6 @@ patchesStrategicMerge:
 
 images:
 - name: invaleed/argocd-demo-1
-  newTag: 65a2feefc76a82b65137a30e2812c8b5824878cf
+  newTag: c1b8fca64cbd463d244fe1cfb4dae649cdef0347
 resources:
 - ../base
