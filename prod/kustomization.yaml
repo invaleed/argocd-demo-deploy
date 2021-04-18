@@ -6,8 +6,6 @@ patchesStrategicMerge:
 - ./deployment-patch.yaml
 
 images:
-- name: alexmt/argocd-demo
-  newTag: 3824e3ce01af4947d4375c2d8fb22159d12e5c04
 - name: invaleed/argocd-demo
   newTag: 65a2feefc76a82b65137a30e2812c8b5824878cf
 resources:
