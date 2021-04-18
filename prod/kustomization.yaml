@@ -1,12 +1,14 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
-bases:
-- ../base
 
 patchesStrategicMerge:
 - ./deployment-patch.yaml
 
 images:
+- name: invaleed/argocd-demo
+  newTag: 72da91cb85c8237f496b621eedca6721725f91d2
 - name: invaleed/argocd-demo-1
   newTag: c1b8fca64cbd463d244fe1cfb4dae649cdef0347
+resources:
+- ../base
