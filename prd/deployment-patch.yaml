@@ -9,4 +9,4 @@ spec:
       - name: demo
         env:
         - name: ENVIRONMENT
-          value: prod
+          value: prd
